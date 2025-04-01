@@ -1,4 +1,3 @@
 # lgu6p
 
-asdff
-c 
+LG U+ Why Not SW Camp
