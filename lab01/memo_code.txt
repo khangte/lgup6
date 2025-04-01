@@ -3,7 +3,7 @@
 1. 깃 설치
 2. 깃허브 리포지토리 생성 (.gitignore 파일도 생성)
     
-    ;; 생성 안하면 [gitignore.io](https://www.toptal.com/developers/gitignore) 에서 생성 가능
+    => 생성 안하면 [gitignore.io](https://www.toptal.com/developers/gitignore) 에서 생성 가능
     
 3. 리포지토리의 로컬 HTTPS URL을 복사
 4. 깃 배시 열기
