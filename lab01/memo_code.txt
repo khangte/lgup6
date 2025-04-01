@@ -1,0 +1,81 @@
+깃 & 깃허브 연동/사용법
+
+1. 깃 설치
+2. 깃허브 리포지토리 생성 (.gitignore 파일도 생성)
+    
+    ;; 생성 안하면 [gitignore.io](https://www.toptal.com/developers/gitignore) 에서 생성 가능
+    
+3. 리포지토리의 로컬 HTTPS URL을 복사
+4. 깃 배시 열기
+5. 해당 URL의 리포지토리를 로컬에 복제 ⇒ 바탕화면에 파일 생성
+    
+    ```bash
+    $ git clone LOCAL_HTTPS_URL
+    ```
+    
+6. Git에 전역 이메일을 설정
+    
+    ```bash
+    $ git config --global user.email "ID"
+    ```
+    
+7. Git에 전역 사용자명을 설정
+    
+    ```bash
+    $ git config --global user.name “NAME”
+    ```
+    
+8. 폴더 내에 파일 생성
+9. 현재 디렉토리의 모든 변경 사항을 스테이징 영역에 추가
+    
+    ```bash
+    $ git add .
+    ```
+    
+10. 파일을 생성한 변경 사항을 커밋
+    
+    ```bash
+    $ git commit -m “CREATED: FILE_NAME file created”
+    ```
+    
+    → 파일을 생성한 변경 사항을 커밋 
+    
+11. 로컬 저장소의 커밋을 원격 저장소(GitHub)로 푸시
+    
+    ```bash
+    $ git push
+    ```
+    
+
+파이썬 가상 환경 설치
+
+- 관리자 Windows PowerShell ISE
+    
+    ```bash
+    > pip install virtualenv
+    ```
+    
+- VSCode 가상 환경 생성
+    
+    ```bash
+    $ virtualenv venv
+    ```
+    
+- 가상 환경 활성화
+    
+    ```bash
+    $ source venv/Scripts/activate
+    ```
+    
+- 가상 환경 비활성화
+    
+    ```bash
+    $ deactivate
+    ```
+    
+- 한번에 라이브러리 설치 가능
+    
+    ```bash
+    $ pip install -r requirements.txt
+    ```
+    
