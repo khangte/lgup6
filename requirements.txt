@@ -1,7 +1,7 @@
-# requirements.txt
-
 numpy == 2.2.4
 pandas
 jupyterlab
 seaborn
 matplotlib
+openpyxl
+xlrd
