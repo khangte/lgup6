@@ -5,3 +5,6 @@ seaborn
 matplotlib
 openpyxl
 xlrd
+matplotlib
+streamlit
+plotly
