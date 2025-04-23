@@ -1,0 +1,6 @@
+pandas
+openpyxl
+mysql-connector-python
+pymssql=2.3.2
+pyodbc
+Django>=3.2
