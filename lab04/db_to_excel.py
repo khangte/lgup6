@@ -75,3 +75,4 @@ class DB2EXCEL:
         abs_path = file_path if file_path.endswith('.xlsx') else file_path + '.xlsx'
         df.to_excel(abs_path, sheet_name=sheet_name, index=False, engine='openpyxl')
         print(f"Saved Excel file: {abs_path}")
+        
